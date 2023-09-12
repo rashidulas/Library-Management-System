@@ -35,7 +35,7 @@ public class Publication {
     public String toString()
     {
         String info = title +  " by " + author + "," + "copyright" + copyright + 
-                      " --> loaned to " + loanedTo + "until" + dueDate;
+                      " --> loaned to " + loanedTo + " until " + dueDate;
         
         if(loanedTo == null)
         {

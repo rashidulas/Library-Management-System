@@ -5,11 +5,11 @@ public class LibraryManager {
         Library library = new Library("Dallas Library");
         library.addPublication(new Publication("To Kill a Mockingbird", "Harper Lee", 1960));
         library.addPublication(new Publication("1984", "George Orwell", 1949));
-        library.addPublication(new Publication("Pride and Prejudice", "Jane Austen", 1813));
+        library.addPublication(new Publication("The Picture of Dorian Gray", "Oscar Wilde", 1913));
         System.out.println(library);
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the index of the publication you want to checkout: ");
+        System.out.println("Enter the index of the publication: ");
         int index = sc.nextInt();
         System.out.println("Enter your name: ");
         sc.nextLine();
