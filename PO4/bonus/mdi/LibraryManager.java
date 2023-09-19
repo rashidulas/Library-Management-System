@@ -38,7 +38,7 @@ public class LibraryManager
 		
 		System.out.println(library.patronMenu());
 		scanner.nextLine();
-		System.out.print("Who are you? ");
+		System.out.print("Your Name: ");
 		int patronIndex=scanner.nextInt();
 		
 		try
