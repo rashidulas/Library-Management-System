@@ -1,0 +1,48 @@
+Publication
+Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: 1960
+
+Publication
+Title: 1984
+Author: George Orwell
+Copyright: 1949
+
+Publication
+Title: The Picture of Dorian Gray
+Author: Oscar Wilde
+Copyright: 1913
+
+Video
+Title: Casablanca
+Author: Michael Curtiz
+Copyright: 1942
+Runtime: 102
+
+Video
+Title: Gone with the Wind
+Author: Victor Fleming
+Copyright: 1939
+Runtime: 238
+
+Video
+Title: Star Wars: Episode IV - A New Hope
+Author: George Lucas
+Copyright: 1977
+Runtime: 121
+
+Patron
+Name: Md Rashidul Alam Sami
+Email: mxs4122@mavs.uta.edu
+
+Patron
+Name: Mike Tyson
+Email: tyson@bgmail.com
+
+Patron
+Name: Galib Raid
+Email: raid07@gmail.com
+
+Patron
+Name: Safwan Zaeem
+Email: safwan007@gmail.com
