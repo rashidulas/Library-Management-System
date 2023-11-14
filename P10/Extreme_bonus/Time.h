@@ -11,15 +11,15 @@ private:
 
 public:
     Time(int hour, int minute, int second);
-    Time(); // Default constructor
+    Time(); 
 
     Time operator+(int seconds) const;
 
     int operator[](int index) const;
     
     Time operator+(const Time& time) const;
-    Time operator++(); // Pre-increment
-    Time operator++(int); // Post-increment
+    Time operator++(); 
+    Time operator++(int); 
     bool operator==(const Time& time) const;
     bool operator!=(const Time& time) const;
     bool operator<(const Time& time) const;
@@ -36,4 +36,4 @@ private:
     int& operator[](int index);
 };
 
-#endif // TIME_H
+#endif 

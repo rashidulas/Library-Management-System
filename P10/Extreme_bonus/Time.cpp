@@ -9,18 +9,18 @@ Time::Time(int hour, int minute, int second)
 Time::Time()
     : _hour(0), _minute(0), _second(0) {}
 
+Time Time::operator+(int seconds) const {
+    Time result = *this;
+    result._second += seconds;
+    result.rationalize();
+    return result;
+}
+
 Time Time::operator+(const Time& time) const {
     Time result = *this;
     result._hour += time._hour;
     result._minute += time._minute;
     result._second += time._second;
-    result.rationalize();
-    return result;
-}
-
-Time Time::operator+(int seconds) const {
-    Time result = *this;
-    result._second += seconds;
     result.rationalize();
     return result;
 }
@@ -99,7 +99,6 @@ void Time::rationalize() {
     _minute %= 60;
     _hour %= 24;
 
-    // Ensuring non-negative values for minute and second
     if (_minute < 0) {
         _minute += 60;
         _hour--;
@@ -109,7 +108,6 @@ void Time::rationalize() {
         _minute--;
     }
 
-    // Ensuring non-negative value for hour
     if (_hour < 0) {
         _hour += 24;
     }
